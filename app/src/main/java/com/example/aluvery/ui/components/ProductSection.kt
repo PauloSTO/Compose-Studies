@@ -16,7 +16,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.aluvery.model.Product
-import com.example.aluvery.sampledata.sampleProducts
+import com.example.aluvery.sampledata.sampleProductsPromo
 
 @Composable
 fun ProductsSection(
@@ -54,5 +54,5 @@ fun ProductsSection(
 @Preview(showBackground = true)
 @Composable
 private fun ProductsSectionPreview() {
-    ProductsSection("Promoções", products = sampleProducts)
+    ProductsSection("Promoções", products = sampleProductsPromo)
 }
